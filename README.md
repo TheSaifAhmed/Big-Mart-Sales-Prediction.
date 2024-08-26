@@ -38,7 +38,7 @@ To prevent the model from overfitting the training data, we implemented:
   - **L2 Regularization (`reg_lambda`)**: This technique adds a penalty proportional to the square of the model coefficients. It helps reduce model complexity and prevents the coefficients from becoming too 
   large, thereby reducing the model's variance.
 
-By tuning these regularization parameters (`reg_alpha` and `reg_lambda`), we were able to achieve a balance between bias and variance, significantly reducing overfitting and improving the model's performance on unseen data, the regularization helped in reducing the R-Squared value between test and train data from 35% to 5% approx. .
+By tuning these regularization parameters (`reg_alpha` and `reg_lambda`), we were able to achieve a balance between bias and variance, significantly reducing overfitting and improving the model's performance on unseen data, the regularization helped in reducing the R-Squared value between test and train data from **35%** to **5%** approx. .
 
 ## Results
 
