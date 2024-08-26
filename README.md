@@ -17,13 +17,9 @@ The Big Mart Sales Prediction project utilizes machine learning techniques to fo
 
 ### Data Preprocessing
 
-  - **Handling Missing Values**: Missing values in the dataset are handled using imputation techniques such as filling with mean, median, or mode.
-  - **Categorical Encoding**: Categorical variables are encoded using one-hot encoding to make them suitable for the machine learning model.
-  - **Feature Scaling**: Scaling features to ensure all are on a similar scale, which helps in faster convergence of gradient descent.
+  - **Handling Missing Values**: Missing values in the dataset are handled using imputation techniques such as filling with mean and mode.
+  - **Label Encoding**: Label encoding was used for ordinal categorical features to make suitable for training machine learning model.
 
-### Feature Engineering
-
-New features were created based on domain knowledge and exploratory data analysis. These engineered features aim to capture underlying patterns that the basic features might not express.
 
 ### Model Training with XGBoost
 
